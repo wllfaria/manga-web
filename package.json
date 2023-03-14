@@ -1,0 +1,12 @@
+{
+  "name": "hentails",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export"
+  }
+}
