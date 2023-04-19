@@ -1,3 +1,5 @@
+import 'styled-components'
+
 export type DesignSystem = {
   textStyles: DesignSystemTextStyles
   colors: DesignSystemTheme
@@ -125,4 +127,8 @@ type DesignSystemColors = {
     primary: Color
     secondary: Color
   }
+}
+
+declare module 'styled-components' {
+  export interface DefaultTheme extends DesignSystem {}
 }
